@@ -1,5 +1,5 @@
 <?php
-$to = "vishalpale@gmail.com";
+$to = "acetechnosys07@gmail.com";
 $subject = "New Contact Form!";
 $name = $_POST['user'];
 $mobile = $_POST['password'];
